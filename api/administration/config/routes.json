@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/administration",
+      "handler": "administration.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/administration",
+      "handler": "administration.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/administration",
+      "handler": "administration.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

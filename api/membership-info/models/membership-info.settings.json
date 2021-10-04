@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "membership_infos",
+  "info": {
+    "name": "Membership Info"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}

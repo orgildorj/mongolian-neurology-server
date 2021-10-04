@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/subgroups",
+      "handler": "subgroups.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subgroups/count",
+      "handler": "subgroups.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/subgroups/:id",
+      "handler": "subgroups.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/subgroups",
+      "handler": "subgroups.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/subgroups/:id",
+      "handler": "subgroups.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/subgroups/:id",
+      "handler": "subgroups.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

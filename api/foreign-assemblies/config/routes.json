@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/foreign-assemblies",
+      "handler": "foreign-assemblies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/foreign-assemblies",
+      "handler": "foreign-assemblies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/foreign-assemblies",
+      "handler": "foreign-assemblies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

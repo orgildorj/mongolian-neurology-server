@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/membership-infos",
+      "handler": "membership-info.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/membership-infos/count",
+      "handler": "membership-info.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/membership-infos/:id",
+      "handler": "membership-info.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/membership-infos",
+      "handler": "membership-info.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/membership-infos/:id",
+      "handler": "membership-info.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/membership-infos/:id",
+      "handler": "membership-info.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

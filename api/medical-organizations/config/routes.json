@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/medical-organizations",
+      "handler": "medical-organizations.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/medical-organizations/count",
+      "handler": "medical-organizations.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/medical-organizations/:id",
+      "handler": "medical-organizations.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/medical-organizations",
+      "handler": "medical-organizations.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/medical-organizations/:id",
+      "handler": "medical-organizations.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/medical-organizations/:id",
+      "handler": "medical-organizations.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

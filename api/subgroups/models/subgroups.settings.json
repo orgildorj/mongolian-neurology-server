@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subgroups",
+  "info": {
+    "name": "Subgroups"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}
